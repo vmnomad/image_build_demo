@@ -6,8 +6,10 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - $PWD/config:/var/jenkins_home
+      - ./jenkins_home:/var/jenkins_home
     networks:
       - net
 networks:
   net:
+volumes: 
+  jenkins_home:

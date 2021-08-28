@@ -1,4 +1,4 @@
-/jenkins/config/
+/jenkins/jenkins_home/
 /landing_zone/.terraform/*
 /packer_templates/*.pkrvars.hcl
 
