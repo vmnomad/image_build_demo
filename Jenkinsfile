@@ -15,7 +15,7 @@ pipeline {
       steps {
         sh 'echo "Deploying"'
         sh 'echo Test Commit'
-        sh 'echo Test PR'
+        sh 'echo Test PR1'
       }
     }
   }
