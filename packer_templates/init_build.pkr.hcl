@@ -28,7 +28,7 @@ source "azure-arm" "centos-6" {
 
   # Final image details
   managed_image_resource_group_name = "packer-images-rg"
-  managed_image_name                = "centos-6-{{timestamp}}"
+  managed_image_name                = "centos-6-{{timestamp}}-dev"
 
   # Publish image to SIG
   shared_image_gallery_destination {
