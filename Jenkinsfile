@@ -4,6 +4,12 @@ pipeline {
     pollSCM("* * * * *")
   }
   stages {
+    stage('Validate') {
+      steps {
+        sh "pwd"
+        sh "ls -lha"
+      }
+    }
     stage('Build') {
       steps {
         sh 'echo "Building.."'
