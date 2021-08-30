@@ -14,12 +14,5 @@ pipeline {
         sh 'echo "Testing.. "'
       }
     }
-    stage('Deploy') {
-      steps {
-        sh 'echo "Deploying"'
-        sh 'echo Test Commit'
-        sh 'echo Test PR2'
-      }
-    }
   }
 }
