@@ -1,7 +1,3 @@
-variable "test" {
-  type = string
-}
-
 variable "os_version" {
   type = string
 }
